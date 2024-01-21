@@ -4,42 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peresonal Information Form</title>
+    <style>
+        body{
+            background-color: rgb(238, 233, 233);
+        }
+        h1{
+            text-align: center;
+            color: blue;
+            background-color: rgb(191, 215, 236);
+            border: 3px black solid;
+            border-radius: 10px;
+        }
+        #caption{
+            color: blue;
+            background-color: rgb(237, 237, 250);
+            border: 3px black solid;
+            border-radius: 6px;
+            width: 8%;
+        }
+        #input{
+            color: black;
+            background-color: rgb(237, 237, 244);
+
+        }
+        #rs{
+            color: green;
+            background-color: rgb(245, 241, 241);
+            border: 2px black solid;
+        }
+
+
+    </style>
 </head>
 <body>
     <H1>Peresonal Information Form</H1>
-    <caption>Name</caption>
+    <p id="caption">Name</p>
     <br>
-    <input type="text" placeholder="Title"><input type="" placeholder="First Name"><input type="text" placeholder="last name">
+    <input id="input" type="text" placeholder="Title"><br><input id="input" type="" placeholder="First Name"><input id="input" type="text" placeholder="last name">
 
-    <p>Date Of Birth</p>
-    <input type="date">
+    <p id="caption">Date Of Birth</p>
+    <input id="input" type="date">
 
-    <p>Adress</p>
-    <textarea name="Street Adress" id="101" placeholder="streert adress" rows="1" cols="100">street adress</textarea>
-    <textarea name="adress line 2" id="101" rows="1" cols="100">Adress Line 2</textarea>
+    <p id="caption">Adress</p>
+    <textarea id="input" name="Street Adress" id="101" placeholder="streert adress" rows="1" cols="100">street adress</textarea>
+    <textarea id="input" name="adress line 2" id="101" rows="1" cols="100">Adress Line 2</textarea>
     <br><br>
 
-    <input type="text" placeholder="city"> <input type="text" placeholder="region"><br>
-    <input type="text" placeholder="postal/zip code"> <caption>country:</caption> <select name="country">
+    <input id="input" type="text" placeholder="city"> <input id="input" type="text" placeholder="region"><br>
+    <input id="input" type="text" placeholder="postal/zip code"> <caption>country:</caption> <select name="country">
     <option value="india">India</option>
     <option value="usa">usa</option>
     <option value="uk">UK</option>
     <option value="australia">australia</option>
 </select>
 
-<h5>Gender</h5>
+<h5 id="caption">Gender</h5>
 <label for="103">
  <input type="radio" name="Gender" value="male" id="103">male
 </label>
 <label for="102">
 <input type="radio" name="Gender" value="female" id="102">female
 </label>
-<p>Email</p>
-<input type="text" placeholder="Email">
+<p id="caption">Email</p>
+<inp idut id="input" type="text" placeholder="Email">
 
-<p>Home Telephone Number</p>
-<input type="">
+<p id="caption">Mob. Number</p>
+<input id="input" type="">
 <br><br>
-<input type="reset"><input type="submit">
+<input id="rs" type="reset"><input id="rs" type="submit">
 </body>
 </html>
